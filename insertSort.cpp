@@ -17,6 +17,7 @@ void scoot_over(int jj)
 { 
    for (int k = num_y; k > jj; k--)
       y[k] = y[k-1];
+   return;
 }
  
 void insert(int new_y)
